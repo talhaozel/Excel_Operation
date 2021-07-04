@@ -278,7 +278,7 @@ public class AnaSayfa extends javax.swing.JFrame {
 
     
     
-        TableRowSorter<DefaultTableModel> tr = new TableRowSorter<DefaultTableModel>(model);
+        TableRowSorter<DefaultTableModel> tr = new TableRowSorter<DefaultTableModel>((DefaultTableModel) jTable1.getModel());
 
             jTable1.setRowSorter(tr);
         
